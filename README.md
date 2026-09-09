@@ -1,36 +1,33 @@
-# КСАНЕКС 2
+# Xanex OS 0.5
 
-Небольшая операционная система, написанная с нуля на ассемблере x86.
-Никаких библиотек, никакого существующего ядра — все делается вручную.
+An operating system written from scratch in assembly.
+No libraries, everything is done by hand.
 
-## Что работает
+## What works
 
-- Загружается с диска, переключается в защищенный режим, графика 320х200 с 256 цветами
-- Мышь PS/2 с аппаратным курсором, нарисованным на рамке
-- Клавиатурный ввод
-- Перетаскиваемые окна с заголовками и нажимаемыми кнопками
-- Блокнот — введите текст и сохраните его на диск
-- Калькулятор — четыре операции
-- Собственная файловая система: сектор каталога плюс один сектор на файл
-- Чтение и запись на необработанный диск АТА
-- Настройки: выберите цвет окна, сохраняемый между запусками
+- 320x200 graphics with 256 colors
+- PS/2 mouse with a cursor
+- Keyboard input
+- Draggable windows
+- Calculator with 4 operations
+- Custom file system - a directory sector, one sector per file
+- Settings: change the main color
 
-## Что не
+## What doesn't
 
-- Нет сети, нет звука
-- Один сектор на файл, максимум 16 файлов
-- Краска, Терминал и Файлы перечины, но еще не реализованы
+- No networking
+- 16 files maximum
+- Paint and Terminal are not done
 
-## Строить
+## Running
 
-Нюжные НАСМ и QEMU. Бегать построить.летучая мышь, или:
+Warning!
+If you are on Linux, the .bat file will not run,
+so use the .sh file from the downloaded files.
+If you are on Windows, run the .bat file.
 
-    nasm -f bin boot.asm -o boot.bin
-    nasm -f bin kernel.asm -o kernel.bin
-    /b boot.bin + kernel.bin os.img
+## Code size
 
-Дополните образ до 516096 байт — прошивка отклоняет диски нестандартного размера.
-
-## Размер
-
-Загрузчик: ~110 строк. Ядро: ~2300 строк.
+- All code: 85 KB
+- Bootloader: 4 KB, 135 lines
+- Kernel: 81 KB, 3490 lines
