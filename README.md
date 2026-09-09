@@ -1,36 +1,36 @@
-# XANEX 2
+# КСАНЕКС 2
 
-A small operating system written from scratch in x86 assembly.
-No libraries, no existing kernel — everything is done by hand.
+Небольшая операционная система, написанная с нуля на ассемблере x86.
+Никаких библиотек, никакого существующего ядра — все делается вручную.
 
-## What works
+## Что работает
 
-- Boots from disk, switches to protected mode, 320x200 graphics with 256 colors
-- PS/2 mouse with a hardware cursor drawn over the frame
-- Keyboard input
-- Draggable windows with title bars and pressable buttons
-- Notepad — type text and save it to disk
-- Calculator — four operations
-- Own file system: a directory sector plus one sector per file
-- Raw ATA disk read and write
-- Settings: pick the window color, saved between runs
+- Загружается с диска, переключается в защищенный режим, графика 320х200 с 256 цветами
+- Мышь PS/2 с аппаратным курсором, нарисованным на рамке
+- Клавиатурный ввод
+- Перетаскиваемые окна с заголовками и нажимаемыми кнопками
+- Блокнот — введите текст и сохраните его на диск
+- Калькулятор — четыре операции
+- Собственная файловая система: сектор каталога плюс один сектор на файл
+- Чтение и запись на необработанный диск АТА
+- Настройки: выберите цвет окна, сохраняемый между запусками
 
-## What doesn't
+## Что не
 
-- No networking, no sound
-- One sector per file, 16 files maximum
-- Paint, Terminal and Files are listed but not implemented yet
+- Нет сети, нет звука
+- Один сектор на файл, максимум 16 файлов
+- Краска, Терминал и Файлы перечины, но еще не реализованы
 
-## Build
+## Строить
 
-Needs NASM and QEMU. Run `build.bat`, or:
+Нюжные НАСМ и QEMU. Бегать `построить.летучая мышь`, или:
 
     nasm -f bin boot.asm -o boot.bin
     nasm -f bin kernel.asm -o kernel.bin
-    copy /b boot.bin + kernel.bin os.img
+     /b boot.bin + kernel.bin os.img
 
-Pad the image to 516096 bytes — the firmware refuses odd-sized disks.
+Дополните образ до 516096 байт — прошивка отклоняет диски нестандартного размера.
 
-## Size
+## Размер
 
-Bootloader: ~110 lines. Kernel: ~2300 lines.
+Загрузчик: ~110 строк. Ядро: ~2300 строк.
