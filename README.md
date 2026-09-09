@@ -23,11 +23,11 @@
 
 ## Строить
 
-Нюжные НАСМ и QEMU. Бегать `построить.летучая мышь`, или:
+Нюжные НАСМ и QEMU. Бегать построить.летучая мышь, или:
 
     nasm -f bin boot.asm -o boot.bin
     nasm -f bin kernel.asm -o kernel.bin
-     /b boot.bin + kernel.bin os.img
+    /b boot.bin + kernel.bin os.img
 
 Дополните образ до 516096 байт — прошивка отклоняет диски нестандартного размера.
 
