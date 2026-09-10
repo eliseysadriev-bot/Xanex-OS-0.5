@@ -32,5 +32,5 @@
 - Загрузчик: 4 КБ, 135 строк
 -  Ядро: 81 КБ, 3490 строк
 ## Ссылки
-Ссылка на Reddithttps://www.reddit.com/user/Milliyaa/submitted/?sort=hot
+Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
   
