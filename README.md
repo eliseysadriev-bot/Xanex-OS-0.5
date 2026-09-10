@@ -1,33 +1,34 @@
-# Xanex OS 0.5
+# Ксанекс ОС 0.5
 
-An operating system written from scratch in assembly.
-No libraries, everything is done by hand.
+Операционная система, написанная с нуля на ассемблере.
+Никаких библиотек, все делается вручную.
 
-## What works
+## Что работает
 
-- 320x200 graphics with 256 colors
-- PS/2 mouse with a cursor
-- Keyboard input
-- Draggable windows
-- Calculator with 4 operations
-- Custom file system - a directory sector, one sector per file
-- Settings: change the main color
+- Графика 320x200 с 256 цветами
+- Мышь PS/2 с курсором
+- Клавиатурный ввод
+- Перетаскиваемые окна
+- Калькулятор с 4 операциями
+- Пользовательская файловая система — сектор каталога, один сектор на файл
+- Настройки: изменить основной цвет
 
-## What doesn't
+## Что не
 
-- No networking
-- 16 files maximum
-- Paint and Terminal are not done
+- Нет сети
+- Максимум 16 файлов
+- Краска и терминал не готовы
 
-## Running
+## Бег
 
-Warning!
-If you are on Linux, the .bat file will not run,
-so use the .sh file from the downloaded files.
-If you are on Windows, run the .bat file.
+Предупреждение!
+Если вы используете Linux, файл .bat не будет запущен,
+поэтому используйте файл .sh из загруженных файлов.
+Если вы используете Windows, запусите файл .bat.
 
-## Code size
+## Размер кода
 
-- All code: 85 KB
-- Bootloader: 4 KB, 135 lines
-- Kernel: 81 KB, 3490 lines
+- Весь код: 85 КБ
+- Загрузчик: 4 КБ, 135 строк
+- Ядро: 81 КБ, 3490 строк
+Ссылка на Reddithttps://www.reddit.com/user/Milliyaa/submitted/?sort=hot
