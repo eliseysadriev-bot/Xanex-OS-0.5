@@ -33,4 +33,7 @@
 -  Ядро: 81 КБ, 3490 строк
 ## Ссылки
 Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
-  
+
+##Note
+the code is written with AI help. The design,
+testing and decisions are mine.
