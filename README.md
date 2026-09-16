@@ -34,6 +34,6 @@
 ## Ссылки
 Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
 
-##Note
+## Note
 the code is written with AI help. The design,
 testing and decisions are mine.
