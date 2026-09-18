@@ -33,6 +33,7 @@
 -  Ядро: 81 КБ, 3490 строк
 ## Ссылки
 Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
+link on YouTube: https://www.youtube.com/@Xanex_OS
 
 ## Note
 the code is written with AI help. The design,
