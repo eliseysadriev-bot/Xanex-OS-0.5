@@ -3,6 +3,11 @@
 Операционная система, написанная с нуля на ассемблере.
 Никаких библиотек, все делается вручную.
 
+## Ссылки
+Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
+
+link on YouTube: https://www.youtube.com/@Xanex_OS
+
 ## Что работает
 
 - Графика 320x200 с 256 цветами
@@ -31,10 +36,6 @@
 - Весь код: 85 КБ
 - Загрузчик: 4 КБ, 135 строк
 -  Ядро: 81 КБ, 3490 строк
-## Ссылки
-Ссылка на Reddit: https://www.reddit.com/user/Milliyaa/submitted/?sort=hot
-
-link on YouTube: https://www.youtube.com/@Xanex_OS
 
 ## Note
 the code is written with AI help. The design,
